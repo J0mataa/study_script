@@ -10,7 +10,7 @@ use: minecraft 1.12.2 / papper bukkit 1.12.2 / notepade++
 
 ---
 
-### 1. 서버열기
+## 1. 서버열기
 
 1. 앞으로 다운로드 받을 파일을 모아놓을 <b>빈폴더(server)</b> 를 생성한다.
 2. <b>페이퍼 버킷(paper-1.12.2-1618.jar)</b> 을 다운로드 받아 server에 넣는다.
@@ -42,7 +42,7 @@ use: minecraft 1.12.2 / papper bukkit 1.12.2 / notepade++
 
 ---
 
-### 2. 스크립트&애드온 다운로드
+## 2. 스크립트&애드온 다운로드
 
 
 참고영상(1편참고): https://www.youtube.com/watch?v=JIvuq09JpMY&list=PL7GExJh5AB9-oO6pMDiqp8_NdFNbpHM1y
@@ -55,7 +55,7 @@ use: minecraft 1.12.2 / papper bukkit 1.12.2 / notepade++
 
 
 ---
-### 3. 스크립트 공부
+## 3. 스크립트 공부
 
 폴더 위치: server\plugins\Skript\scripts </br>
 server(본인이 생성한 폴더) > plugins > Skript > scripts </br>
@@ -63,6 +63,14 @@ scripts에서 .sk 파일들 만들기~ </br>
 
 ---
 
+
+#### A. 명령어는 어디서 찾나요?
+
+**[【명령어 검색】](https://docs.skunity.com/syntax/)은 skunity에서 할 수 있습니다.**
+
+</br></br></br></br>
+
+#### B. 나름 중요한 사항!
 
 <b> ❗❗ 자신에게 서버 오피를 줘야함 ❗❗ </b> 
 1. start.bat 실행시 나오는 cmd창
@@ -73,12 +81,16 @@ scripts에서 .sk 파일들 만들기~ </br>
 
 참고주소: https://www.youtube.com/watch?v=JIvuq09JpMY&list=PL7GExJh5AB9-oO6pMDiqp8_NdFNbpHM1y
 
----
+</br></br></br></br>
 
-#### 수정 시 reload하기
+
+#### C. 수정 시 reload하기
 > <b>minecraft 게임 내에서 </b> </br>
 > /sk reload 파일명 </br>
 > .sk의 확장자는 생략 </br>
+
+
+</br></br></br></br>
 
 
 ---
