@@ -57,6 +57,13 @@ use: minecraft 1.12.2 / papper bukkit 1.12.2 / notepade++
 ---
 ### 3. 스크립트 공부
 
+폴더 위치: server\plugins\Skript\scripts </br>
+server(본인이 생성한 폴더) > plugins > Skript > scripts </br>
+scripts에서 .sk 파일들 만들기~ </br>
+
+---
+
+
 <b> ❗❗ 자신에게 서버 오피를 줘야함 ❗❗ </b> 
 1. start.bat 실행시 나오는 cmd창
 > <b>1. 내용(start.bat 실행cmd): </b> </br>
@@ -66,4 +73,46 @@ use: minecraft 1.12.2 / papper bukkit 1.12.2 / notepade++
 
 참고주소: https://www.youtube.com/watch?v=JIvuq09JpMY&list=PL7GExJh5AB9-oO6pMDiqp8_NdFNbpHM1y
 
+---
 
+#### 수정 시 reload하기
+> <b>minecraft 게임 내에서 </b> </br>
+> /sk reload 파일명 </br>
+> .sk의 확장자는 생략 </br>
+
+
+---
+
+
+### 커맨드 스크립트
+
+``` 
+command /명령어:
+	trigger:
+		if player is op:
+			message "안녕하세요 반갑습니다. 오피가 있다면 실행됩니다."
+		else:
+			message "오피가 없어 인사를 띄울 수 없습니다."
+```
+```
+if player is op: //만약 플레이어가 op가 있다면?
+  message 실행1
+else:
+  message 실행2
+```
+
+---
+
+### 이벤트 스크립트
+
+```
+on chat:
+	cancel event
+	message "%player%님은 채팅을 칠 수 없습니다. (채팅취소이벤트)"
+```
+
+```
+채팅을 치면:
+  해당 이벤트를 취소(채팅취소)
+  message 실행1
+```
