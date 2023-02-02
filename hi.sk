@@ -1,6 +1,6 @@
 command /hi:
 	trigger:
 		if player is op:
-			message "안녕하세요 반갑습니다."
+			message "안녕하세요 반갑습니다. 오피가 있다면 실행됩니다."
 		else:
-			message "당신은 OP가 없어 명령어가 실행될 수 없습니다."
+			message "오피가 없어 인사를 띄울 수 없습니다."
